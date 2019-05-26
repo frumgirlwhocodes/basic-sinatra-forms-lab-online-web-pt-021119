@@ -12,7 +12,7 @@ post "/team" do
   @sg=params[:sg]
   @pf=params[:pf]
   @sf=params[:sf]
-  @c=params[:c]
+  @center=params[:c]
   
   erb :team 
 end 
